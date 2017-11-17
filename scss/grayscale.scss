@@ -66,9 +66,10 @@ a {
   }
 }
 
+
 #mainNav {
   font-family: 'Catamaran', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  text-shadow: 1px 3px 3px #000000;
+  text-shadow: 1px 2px 3px #000000;
   margin-bottom: 0;
   text-transform: uppercase;
   border-bottom: 1px solid fade-out(white, .7);
@@ -175,7 +176,9 @@ a {
         font-size: 100px;
       }
       .intro-text {
-        font-size: 22px;
+        font-size: 25px;
+        font-weight: 600;
+        text-shadow: 1px 1px 2px rgb(191, 191, 191);
       }
     }
   }
@@ -256,7 +259,7 @@ a {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  text-transform: uppercase;
+  text-transform: downcase;
 
   border-radius: 0;
 }
@@ -273,6 +276,10 @@ a {
   border: 1px solid $primary;
   background-color: transparent;
   margin: 10px;
+  padding: 5px;
+  font-size: 20px;
+  
+  
   &:focus,
   &:hover {
     color: black;

@@ -55,7 +55,7 @@ a {
 
 #mainNav {
   font-family: 'Catamaran', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  text-shadow: 1px 3px 3px #000000;
+  text-shadow: 1px 2px 3px #000000;
   margin-bottom: 0;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
@@ -112,7 +112,7 @@ a {
   padding: 200px 0;
   text-align: center;
   color: black;
-  background: url("../img/jumbotron-fade.JPG") no-repeat bottom center scroll;
+  background: url("../img/jumbotron-fade.jpg") no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -135,7 +135,9 @@ a {
       .masthead .intro-body .brand-heading {
         font-size: 100px; }
       .masthead .intro-body .intro-text {
-        font-size: 22px; } }
+        font-size: 25px;
+        font-weight: 600;
+        text-shadow: 1px 1px 2px #bfbfbf; } }
 
 .btn-circle {
   font-size: 26px;
@@ -194,7 +196,7 @@ a {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  text-transform: uppercase;
+  text-transform: downcase;
   border-radius: 0; }
 
 .view-app {
@@ -202,14 +204,16 @@ a {
   border-radius: 10px; }
 
 .carousel-item {
-  color: #b4b1fc;
-  font-style: italic; }
+  color: #b4b1fc; }
 
 .btn-default {
   color: #b4b1fc;
   border: 1px solid #b4b1fc;
   background-color: transparent;
-  margin: 10px; }
+  margin: 10px;
+  padding: 5px;
+  font-size: 18px;
+  font-style: none; }
   .btn-default:focus, .btn-default:hover {
     color: black;
     border: 1px solid #b4b1fc;

@@ -269,7 +269,7 @@ a {
 }
 .carousel-item {
   color: $primary;
-  font-style: italic;
+  
 }
 .btn-default {
   color: $primary;
@@ -277,7 +277,8 @@ a {
   background-color: transparent;
   margin: 10px;
   padding: 5px;
-  font-size: 20px;
+  font-size: 18px;
+  font-style: none;
   
   
   &:focus,

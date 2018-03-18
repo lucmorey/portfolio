@@ -11,6 +11,7 @@ html {
   height: 100%; }
 
 h1 {
+  color: lightgrey;
   font-family: 'Catamaran', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 h2 {
@@ -112,7 +113,7 @@ a {
   padding: 200px 0;
   text-align: center;
   color: black;
-  background: url("../img/jumbotron-fade.jpg") no-repeat bottom center scroll;
+  background: url("../img/sierras.jpg") no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -137,7 +138,8 @@ a {
       .masthead .intro-body .intro-text {
         font-size: 25px;
         font-weight: 600;
-        text-shadow: 1px 1px 2px #bfbfbf; } }
+        color: lightgray;
+        text-shadow: 2px 2px 2px black; } }
 
 .btn-circle {
   font-size: 26px;
@@ -148,8 +150,8 @@ a {
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
   transition: background 0.3s ease-in-out;
-  color: black;
-  border: 2px solid black;
+  color: lightgray;
+  border: 2px solid lightgray;
   border-radius: 100% !important;
   background: transparent; }
   .btn-circle:focus, .btn-circle:hover {

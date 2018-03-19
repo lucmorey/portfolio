@@ -37,7 +37,7 @@ h6 {
   text-transform: uppercase; }
 
 p {
-  
+  color: #e2ba65;
   font-size: 16px;
   line-height: 1.5;
   font-family: 'Catamaran', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -165,7 +165,7 @@ a {
     text-shadow: 2px 2px 2px black;
     color: #e2ba65;
     outline: none;
-    background: rgba(255, 255, 255, 0.4); }
+    background: rgba(255, 255, 255, 0.05); }
 
 .content-section {
   padding-top: 150px;

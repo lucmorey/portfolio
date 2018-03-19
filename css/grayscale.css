@@ -12,6 +12,7 @@ html {
 
 h1 {
   color: lightgrey;
+  text-shadow: 2px 2px 2px black;
   font-family: 'Catamaran', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 h2 {
@@ -21,7 +22,9 @@ h3 {
   font-family: 'Catamaran', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 h4 {
-  font-family: 'Catamaran', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  font-family: 'Catamaran', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-style: italic;
+}
 
 h5 {
   font-family: 'Catamaran', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
@@ -34,25 +37,28 @@ h6 {
   text-transform: uppercase; }
 
 p {
+  
   font-size: 16px;
   line-height: 1.5;
   font-family: 'Catamaran', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  margin: 0 0 25px; }
+   }
   @media (min-width: 768px) {
     p {
+      color: #e2ba65;
       font-size: 18px;
       line-height: 1.6;
-      margin: 0 0 35px; } }
+      } }
+
 
 a {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   font-family: 'Catamaran', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color: #b4b1fc; }
+  color: #e2ba65; }
   a:focus, a:hover {
     text-decoration: none;
-    color: #564ff8; }
+     }
 
 #mainNav {
   font-family: 'Catamaran', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -65,13 +71,13 @@ a {
     font-size: 14px;
     font-family: 'Catamaran', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     padding: 11px;
-    color: white;
-    border: 1px solid white; }
+    color: #e2ba65;
+    border: 1px solid #e2ba65; }
   #mainNav .navbar-brand js-scroll-trigger {
     font-family: 'Catamaran', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 700; }
   #mainNav a {
-    color: white; }
+    color: #e2ba65; }
   #mainNav .navbar-nav .nav-item {
     -webkit-transition: background 0.3s ease-in-out;
     -moz-transition: background 0.3s ease-in-out;
@@ -128,7 +134,7 @@ a {
     .masthead .intro-body .intro-text {
       font-size: 24px;
       font-weight: 600;
-      color: black; }
+      color: lightgray; }
   @media (min-width: 768px) {
     .masthead {
       height: 100%;
@@ -142,6 +148,7 @@ a {
         text-shadow: 2px 2px 2px black; } }
 
 .btn-circle {
+  text-shadow: 2px 2px 2px black;
   font-size: 26px;
   width: 55px;
   height: 55px;
@@ -150,14 +157,15 @@ a {
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
   transition: background 0.3s ease-in-out;
-  color: lightgray;
-  border: 2px solid lightgray;
+  color: #e2ba65;
+  border: 2px solid #e2ba65;
   border-radius: 100% !important;
-  background: transparent; }
+  background:  black; }
   .btn-circle:focus, .btn-circle:hover {
-    color: white;
+    text-shadow: 2px 2px 2px black;
+    color: #e2ba65;
     outline: none;
-    background: rgba(255, 255, 255, 0.1); }
+    background: rgba(255, 255, 255, 0.4); }
 
 .content-section {
   padding-top: 150px;
@@ -206,11 +214,11 @@ a {
   border-radius: 10px; }
 
 .carousel-item {
-  color: #b4b1fc; }
+  color: #e2ba65; }
 
 .btn-default {
-  color: #b4b1fc;
-  border: 1px solid #b4b1fc;
+  color: #e2ba65;
+  border: 1px solid #e2ba65;
   background-color: transparent;
   margin: 10px;
   padding: 5px;
@@ -218,9 +226,9 @@ a {
   font-style: none; }
   .btn-default:focus, .btn-default:hover {
     color: black;
-    border: 1px solid #b4b1fc;
+    border: 1px solid #e2ba65;
     outline: none;
-    background-color: #b4b1fc; }
+    background-color: #e2ba65; }
 
 ul.banner-social-buttons {
   margin-top: 0; }

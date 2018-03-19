@@ -26,7 +26,8 @@ h2{
 h3 {
   font-family: 'Catamaran', 'Helvetica Neue', Helvetica, Arial, sans-serif;}
 h4 {
-  font-family: 'Catamaran', 'Helvetica Neue', Helvetica, Arial, sans-serif;}
+  font-family: 'Catamaran', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
 h5{
   font-family: 'Catamaran', 'Helvetica Neue', Helvetica, Arial, sans-serif;}
 h6 {
@@ -186,24 +187,24 @@ a {
 
 .btn-circle {
   font-size: 26px;
-
   width: 55px;
   height: 55px;
   margin-top: 15px;
   line-height: 45px;
-
+  
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
   transition: background 0.3s ease-in-out;
 
   color: black;
   border: 2px solid black;
+  
   border-radius: 100% !important;
   background: transparent;
   &:focus,
   &:hover {
     color: white;
-    outline: none;
+    outline: black;
     background: fade-out(white, .9);
   }
 }
